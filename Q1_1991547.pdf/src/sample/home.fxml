@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DataController">
+   <children>
+      <TabPane layoutX="4.0" prefHeight="700.0" prefWidth="1000.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+            <Tab text="Home">
+               <content>
+                  <ScrollPane prefHeight="200.0" prefWidth="200.0">
+                     <content>
+                        <GridPane prefHeight="790.0" prefWidth="982.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints maxHeight="253.0" minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="527.0" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="527.0" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="527.0" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="527.0" minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <TextArea editable="false" onMouseClicked="#initAber" prefHeight="200.0" prefWidth="200.0" text="Aberporth - &#10;Highest tmax: 18.3 (Jul)&#10;Lowest tmin: 3.9 (Jan)&#10;Air Frost Days: 4 &#10;Total Rainfall: 1008.4" GridPane.rowIndex="1" />
+                              <TextArea editable="false" onMouseClicked="#initArmagh" prefHeight="200.0" prefWidth="200.0" text="Armagh - &#10;Highest tmax: 19.8 (Jul)&#10;Lowest tmin: 2.3 (Dec)&#10;Air Frost Days: 30&#10;Total Rainfall: 782.1" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <TextArea editable="false" onMouseClicked="#initBForest" prefHeight="200.0" prefWidth="200.0" text="Ballypatrick Forest - &#10;Highest tmax: 16.8 (Jul)&#10;Lowest tmin: 2.9 (Feb)&#10;Air Frost Days: 16&#10;Total Rainfall: 1354.8" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                              <TextArea editable="false" onMouseClicked="#initBradford" prefHeight="200.0" prefWidth="200.0" text="Bradford - &#10;Highest tmax: 19.9 (Jul)&#10;Lowest tmin: 1.8 (Jan)&#10;Air Frost Days: 33&#10;Total Rainfall: 737.4" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                              <TextArea editable="false" onMouseClicked="#initBraemar" prefHeight="200.0" prefWidth="200.0" text="Braemar - &#10;Highest tmax: 17 (Jul)&#10;Lowest tmin: -1.6 (Dec)&#10;Air Frost Days: 108&#10;Total Rainfall: 670.4" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                              <TextArea editable="false" onMouseClicked="#initCamborne" prefHeight="200.0" prefWidth="200.0" text="Cambourne - &#10;Highest tmax: 18.7 (Jul)&#10;Lowest tmin: 5.3 (Jan)&#10;Air Frost Days: 2&#10;Total Rainfall: 1019.2" GridPane.rowIndex="2" />
+                              <TextArea editable="false" onMouseClicked="#initCambridge" prefHeight="200.0" prefWidth="200.0" text="Cambridge NIAB - &#10;Highest tmax: 22.1 (Jul)&#10;Lowest tmin: 0.5 (Jan)&#10;Air Frost Days: 34&#10;Total Rainfall: 606.7" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <TextArea editable="false" onMouseClicked="#initCardiff" prefHeight="200.0" prefWidth="200.0" text="Cardiff Bute Park - &#10;Highest tmax: 21.4 (Jul)&#10;Lowest tmin: 2 (Jan)&#10;Air Frost Days: 34&#10;Total Rainfall: 1025.3" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                              <TextArea editable="false" onMouseClicked="#initChivenor" prefHeight="200.0" prefWidth="200.0" text="Chivenor - &#10;Highest tmax: 20.2 (Jul)&#10;Lowest tmin: 3.7 (Jan)&#10;Air Frost Days: 7&#10;Total Rainfall: 936.8" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                              <TextArea editable="false" onMouseClicked="#initCwmyst" prefHeight="200.0" prefWidth="200.0" text="Cwmystwyth - &#10;Highest tmax: Null&#10;Lowest tmin: Null&#10;Air Frost Days: Null&#10;Total Rainfall: Null" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                              <TextArea editable="false" onMouseClicked="#initDunst" prefHeight="200.0" prefWidth="200.0" text="Dunstaffnage - &#10;Highest tmax: 18.2 (Jul)&#10;Lowest tmin: 2.6 (Dec)&#10;Air Frost Days: 16&#10;Total Rainfall: 1667.6" GridPane.rowIndex="3" />
+                              <TextArea editable="false" onMouseClicked="#initOthers" prefHeight="200.0" prefWidth="200.0" text="Durham - &#10;Highest tmax: Null&#10;Lowest tmin: Null&#10;Air Frost Days: Null&#10;Total Rainfall: Null" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <TextArea editable="false" onMouseClicked="#initEastbourne" prefHeight="200.0" prefWidth="200.0" text="Eastbourne - &#10;Highest tmax: 20.9 (Jul)&#10;Lowest tmin: 1.6 (Jan)&#10;Air Frost Days: 17&#10;Total Rainfall: 736.3" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                              <TextArea editable="false" onMouseClicked="#initEskdale" prefHeight="200.0" prefWidth="200.0" text="Eskdalemuir - &#10;Highest tmax: 17.1 (Jul)&#10;Lowest tmin: -0.8 (Dec)&#10;Air Frost Days: 86&#10;Total Rainfall: 1742.7" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                              <TextArea editable="false" onMouseClicked="#initHeathrow" prefHeight="200.0" prefWidth="200.0" text="Heathrow - &#10;Highest tmax: 24 (Jun)&#10;Lowest tmin: 0.7 (Jan)&#10;Air Frost Days: 25&#10;Total Rainfall: 574.4" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                              <TextArea editable="false" onMouseClicked="#initHurn" prefHeight="200.0" prefWidth="200.0" text="Hurn - &#10;Highest tmax: 22.2 (Jul)&#10;Lowest tmin: -0.1 (Jan)&#10;Air Frost Days: 36&#10;Total Rainfall: 766.3" GridPane.rowIndex="4" />
+                              <TextArea editable="false" onMouseClicked="#initLerwick" prefHeight="200.0" prefWidth="200.0" text="Lerwick - &#10;Highest tmax: 14.7 (Aug)&#10;Lowest tmin: 2.3 (Dec)&#10;Air Frost Days: 24&#10;Total Rainfall: 1409.7" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                              <TextArea editable="false" onMouseClicked="#initLeuchars" prefHeight="200.0" prefWidth="200.0" text="Leuchars - &#10;Highest tmax: 18.9 (Aug)&#10;Lowest tmin: 0.4 (Dec)&#10;Air Frost Days: 57&#10;Total Rainfall: 615.6" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                              <TextArea editable="false" onMouseClicked="#initLowestoft" prefHeight="200.0" prefWidth="200.0" text="Lowestoft - &#10;Highest tmax: 21.6 (Jul)&#10;Lowest tmin: 1.6 (Jan)&#10;Air Frost Days: 23&#10;Total Rainfall: 569.6" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                              <TextArea editable="false" onMouseClicked="#initManston" prefHeight="200.0" prefWidth="200.0" text="Manston - &#10;Highest tmax: 22.8 (Jul)&#10;Lowest tmin: 0.7 (Jan)&#10;Air Frost Days: 25&#10;Total Rainfall: 512" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                              <TextArea editable="false" onMouseClicked="#initNairn" prefHeight="200.0" prefWidth="200.0" text="Nairn - &#10;Highest tmax: 18.3 (Jul)&#10;Lowest tmin: 1.1 (Feb)&#10;Air Frost Days: 48&#10;Total Rainfall: 706.8" GridPane.rowIndex="5" />
+                              <TextArea editable="false" onMouseClicked="#initNewton" prefHeight="200.0" prefWidth="200.0" text="Newton Rigg - &#10;Highest tmax: 18.3 (Jul)&#10;Lowest tmin: -0.3 (Dec)&#10;Air Frost Days: 65&#10;Total Rainfall: 980.5" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                              <TextArea editable="false" onMouseClicked="#initOxford" prefHeight="200.0" prefWidth="200.0" text="Oxford - &#10;Highest tmax: 22.7 (Jul)&#10;Lowest tmin: 0.8 (Jan)&#10;Air Frost Days: 34&#10;Total Rainfall: 630.5" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                              <TextArea editable="false" onMouseClicked="#initPaisley" prefHeight="200.0" prefWidth="200.0" text="Paisley - &#10;Highest tmax: 18.7 (Jul)&#10;Lowest tmin: -0.8 (Dec)&#10;Air Frost Days: 57&#10;Total Rainfall: 1214.3" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                              <TextArea editable="false" onMouseClicked="#initOthers" prefHeight="200.0" prefWidth="200.0" text="Ringway - &#10;Highest tmax: Null&#10;Lowest tmin: Null&#10;Air Frost Days: Null&#10;Total Rainfall: Null" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                              <TextArea editable="false" onMouseClicked="#initRossOW" prefHeight="200.0" prefWidth="200.0" text="Ross-on-Wye - &#10;Highest tmax: 22.4 (Jul)&#10;Lowest tmin: 0.9 (Jan)&#10;Air Frost Days: 36&#10;Total Rainfall: 640.3" GridPane.rowIndex="6" />
+                              <TextArea editable="false" onMouseClicked="#initShawbury" prefHeight="200.0" prefWidth="200.0" text="Shawbury - &#10;Highest tmax: 21.7 (Jul)&#10;Lowest tmin: 0.9 (Jan)&#10;Air Frost Days: 48&#10;Total Rainfall: 668.4" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                              <TextArea editable="false" onMouseClicked="#initSheffield" prefHeight="200.0" prefWidth="200.0" text="Sheffield - &#10;Highest tmax: 21.2 (Jul)&#10;Lowest tmin: 2.2 (Jan)&#10;Air Frost Days: 17&#10;Total Rainfall: 697" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                              <TextArea editable="false" onMouseClicked="#initOthers" prefHeight="200.0" prefWidth="200.0" text="Southampton - &#10;Highest tmax: Null&#10;Lowest tmin: Null&#10;Air Frost Days: NUll&#10;Total Rainfall: Null" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+                              <TextArea editable="false" onMouseClicked="#initStornoway" prefHeight="200.0" prefWidth="200.0" text="Stornoway Airport - &#10;Highest tmax: 16.6 (Jul)&#10;Lowest tmin: 2.3 (Dec)&#10;Air Frost Days: 16&#10;Total Rainfall: 1237" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+                              <TextArea editable="false" onMouseClicked="#initSutton" prefHeight="200.0" prefWidth="200.0" text="Sutton Bonington - &#10;Highest tmax: 21.9 (Jul)&#10;Lowest tmin: 1 (Jan)&#10;Air Frost Days: 35&#10;Total Rainfall: 648.2" GridPane.rowIndex="7" />
+                              <TextArea editable="false" onMouseClicked="#initTiree" prefHeight="200.0" prefWidth="200.0" text="Tiree - &#10;Highest tmax: 16.6 (Aug)&#10;Lowest tmin: 3.8 (Dec)&#10;Air Frost Days: 6&#10;Total Rainfall: 1335.8" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                              <TextArea editable="false" onMouseClicked="#initValley" prefHeight="200.0" prefWidth="200.0" text="Valley - &#10;Highest tmax: 18.8 (Jul)&#10;Lowest tmin: 4.3 (Jan)&#10;Air Frost Days: 11&#10;Total Rainfall: 870" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+                              <TextArea editable="false" onMouseClicked="#initWaddington" prefHeight="200.0" prefWidth="200.0" text="Waddington - &#10;Highest tmax: 21.3 (Jul)&#10;Lowest tmin: 1 (Jan)&#10;Air Frost Days: 28&#10;Total Rainfall: 583.6" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+                              <TextArea editable="false" onMouseClicked="#initWhitby" prefHeight="200.0" prefWidth="200.0" text="Whitby - &#10;Highest tmax: 19.8 (Jun)&#10;Lowest tmin: 2 (Jan)&#10;Air Frost Days: 21&#10;Total Rainfall: 1249" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+                              <TextArea editable="false" onMouseClicked="#initWick" prefHeight="200.0" prefWidth="200.0" text="Wick Airport - &#10;Highest tmax: 16.3 (Aug)&#10;Lowest tmin : 1.6 (Dec)&#10;Air Frost Days: 29&#10;Total Rainfall: 919.8" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                              <TextArea editable="false" onMouseClicked="#initYeovilton" prefHeight="200.0" prefWidth="200.0" text="Yeovilton - &#10;Highest tmax: 21.7 (Jul)&#10;Lowest tmin: 0.7 (Jan)&#10;Air Frost Days: 44&#10;Total Rainfall: 649.6" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+                              <Label text="2019 Weather Data" GridPane.columnSpan="5" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </GridPane>
+                     </content>
+                  </ScrollPane>
+               </content></Tab>
+          <Tab fx:id="graphTab" disable="true" text="Historiclal Data">
+               <content>
+                  <GridPane>
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="616.0" minWidth="10.0" prefWidth="498.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="502.0" minWidth="10.0" prefWidth="502.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints maxHeight="217.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="321.0" minHeight="10.0" prefHeight="225.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="293.0" minHeight="10.0" prefHeight="225.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <LineChart fx:id="tmaxGraph" prefHeight="280.0" prefWidth="944.0" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                          <xAxis>
+                            <CategoryAxis side="BOTTOM" />
+                          </xAxis>
+                          <yAxis>
+                            <NumberAxis side="LEFT" />
+                          </yAxis>
+                           <padding>
+                              <Insets left="20.0" right="20.0" />
+                           </padding>
+                        </LineChart>
+                        <Label fx:id="stationName" text="Label" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+                        <BarChart fx:id="airfrostGraph" GridPane.rowIndex="2">
+                          <xAxis>
+                            <CategoryAxis side="BOTTOM" />
+                          </xAxis>
+                          <yAxis>
+                            <NumberAxis side="LEFT" />
+                          </yAxis>
+                        </BarChart>
+                        <LineChart fx:id="rainGraph" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                          <xAxis>
+                            <CategoryAxis side="BOTTOM" />
+                          </xAxis>
+                          <yAxis>
+                            <NumberAxis side="LEFT" />
+                          </yAxis>
+                        </LineChart>
+                     </children>
+                  </GridPane>
+               </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

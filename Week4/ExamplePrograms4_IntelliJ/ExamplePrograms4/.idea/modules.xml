@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ArraySort/ArraySort.iml" filepath="$PROJECT_DIR$/ArraySort/ArraySort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BubbleSort/BubbleSort.iml" filepath="$PROJECT_DIR$/BubbleSort/BubbleSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BufferSize/BufferSize.iml" filepath="$PROJECT_DIR$/BufferSize/BufferSize.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CollectionSort/CollectionSort.iml" filepath="$PROJECT_DIR$/CollectionSort/CollectionSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConcatPerf/ConcatPerf.iml" filepath="$PROJECT_DIR$/ConcatPerf/ConcatPerf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CreateBuffers/CreateBuffers.iml" filepath="$PROJECT_DIR$/CreateBuffers/CreateBuffers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dice/Dice.iml" filepath="$PROJECT_DIR$/Dice/Dice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExamplePrograms4.iml" filepath="$PROJECT_DIR$/ExamplePrograms4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Factorial/Factorial.iml" filepath="$PROJECT_DIR$/Factorial/Factorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Factorial2/Factorial2.iml" filepath="$PROJECT_DIR$/Factorial2/Factorial2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FactorialErrorFixed/FactorialErrorFixed.iml" filepath="$PROJECT_DIR$/FactorialErrorFixed/FactorialErrorFixed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FactorialWithError/FactorialWithError.iml" filepath="$PROJECT_DIR$/FactorialWithError/FactorialWithError.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ForEach/ForEach.iml" filepath="$PROJECT_DIR$/ForEach/ForEach.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IteratorTest/IteratorTest.iml" filepath="$PROJECT_DIR$/IteratorTest/IteratorTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListTest/ListTest.iml" filepath="$PROJECT_DIR$/ListTest/ListTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Manipulate/Manipulate.iml" filepath="$PROJECT_DIR$/Manipulate/Manipulate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MapTest/MapTest.iml" filepath="$PROJECT_DIR$/MapTest/MapTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Power/Power.iml" filepath="$PROJECT_DIR$/Power/Power.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reverse/Reverse.iml" filepath="$PROJECT_DIR$/Reverse/Reverse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SetTest/SetTest.iml" filepath="$PROJECT_DIR$/SetTest/SetTest.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BankAccountThreadTest/BankAccountThreadTest.iml" filepath="$PROJECT_DIR$/BankAccountThreadTest/BankAccountThreadTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BankAccountThreadTestDeadlock/BankAccountThreadTestDeadlock.iml" filepath="$PROJECT_DIR$/BankAccountThreadTestDeadlock/BankAccountThreadTestDeadlock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BankAccountThreadTestSync/BankAccountThreadTestSync.iml" filepath="$PROJECT_DIR$/BankAccountThreadTestSync/BankAccountThreadTestSync.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExamplePrograms8.iml" filepath="$PROJECT_DIR$/ExamplePrograms8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GreetingTest/GreetingTest.iml" filepath="$PROJECT_DIR$/GreetingTest/GreetingTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GreetingThread/GreetingThread.iml" filepath="$PROJECT_DIR$/GreetingThread/GreetingThread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GreetingThreadDaemon/GreetingThreadDaemon.iml" filepath="$PROJECT_DIR$/GreetingThreadDaemon/GreetingThreadDaemon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GreetingThreadRunnable/GreetingThreadRunnable.iml" filepath="$PROJECT_DIR$/GreetingThreadRunnable/GreetingThreadRunnable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GreetingThreadStopRequest/GreetingThreadStopRequest.iml" filepath="$PROJECT_DIR$/GreetingThreadStopRequest/GreetingThreadStopRequest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MasterSlave/MasterSlave.iml" filepath="$PROJECT_DIR$/MasterSlave/MasterSlave.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PriorityTest/PriorityTest.iml" filepath="$PROJECT_DIR$/PriorityTest/PriorityTest.iml" />
+    </modules>
+  </component>
+</project>

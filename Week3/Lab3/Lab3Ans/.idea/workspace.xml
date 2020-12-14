@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a2c89dfe-bdd5-4f09-aaed-f36c528b1f99" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1XfaB5J3nt6kX8SkA9b6NYxzvtm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Q2.1/src" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\scmyl2\OneDrive - Cardiff University\CMT205\2020\Week3\Lab3Ans\Q2.1\src" />
+      <recent name="C:\Users\scmyl2\OneDrive - Cardiff University\CMT205\2020\Week3\Lab3Ans\Q1.1\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Books">
+    <configuration name="Books" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Books" />
+      <module name="Q1.2" />
+      <option name="PROGRAM_PARAMETERS" value="query 50" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadCoordinates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReadCoordinates" />
+      <module name="Q1.1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ShapeTest" />
+      <module name="Q2.1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Books" />
+      <item itemvalue="Application.ReadCoordinates" />
+      <item itemvalue="Application.ShapeTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Books" />
+        <item itemvalue="Application.ShapeTest" />
+        <item itemvalue="Application.ReadCoordinates" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2c89dfe-bdd5-4f09-aaed-f36c528b1f99" name="Default Changelist" comment="" />
+      <created>1581439463219</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581439463219</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="734" y="357" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581446189051">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="734" y="357" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1581446189051" />
+    <state width="2516" height="259" key="GridCell.Tab.0.bottom" timestamp="1581446203175">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2516" height="259" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1581446203175" />
+    <state width="2516" height="259" key="GridCell.Tab.0.center" timestamp="1581446203175">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2516" height="259" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1581446203175" />
+    <state width="2516" height="259" key="GridCell.Tab.0.left" timestamp="1581446203175">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2516" height="259" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1581446203175" />
+    <state width="2516" height="259" key="GridCell.Tab.0.right" timestamp="1581446203175">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2516" height="259" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1581446203175" />
+    <state x="878" y="317" key="new project wizard" timestamp="1581439531395">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="878" y="317" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1581439531395" />
+  </component>
+</project>

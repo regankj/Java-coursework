@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7620c24d-62ba-43c5-a682-ac47b51e0039" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1Y1Z6w072a8cwVR5MQj0SR1zotc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FactorialWithError/src" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/FactorialWithError/src" />
+      <recent name="$PROJECT_DIR$/CollectionSort/src" />
+      <recent name="$PROJECT_DIR$/ArraySort/src" />
+      <recent name="$PROJECT_DIR$/BubbleSort/src" />
+      <recent name="$PROJECT_DIR$/IteratorTest/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Factorial[new]">
+    <configuration name="ArraySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraySort" />
+      <module name="ArraySort" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BubbleSort" />
+      <module name="BubbleSort" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Factorial" />
+      <module name="FactorialWithError" />
+      <option name="PROGRAM_PARAMETERS" value="17" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Factorial[new]" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Factorial" />
+      <module name="FactorialErrorFixed" />
+      <option name="PROGRAM_PARAMETERS" value="17" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IteratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IteratorTest" />
+      <module name="IteratorTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ArraySort" />
+      <item itemvalue="Application.BubbleSort" />
+      <item itemvalue="Application.IteratorTest" />
+      <item itemvalue="Application.Factorial[new]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Factorial[new]" />
+        <item itemvalue="Application.Factorial" />
+        <item itemvalue="Application.ArraySort" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.IteratorTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7620c24d-62ba-43c5-a682-ac47b51e0039" name="Default Changelist" comment="" />
+      <created>1582111888334</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582111888334</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="466" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582119328018">
+      <screen x="0" y="23" width="1920" height="1119" />
+    </state>
+    <state x="466" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1119@0.23.1920.1119" timestamp="1582119328018" />
+    <state width="1358" height="348" key="GridCell.Tab.0.bottom" timestamp="1582119359826">
+      <screen x="0" y="23" width="1920" height="1119" />
+    </state>
+    <state width="1358" height="348" key="GridCell.Tab.0.bottom/0.23.1920.1119@0.23.1920.1119" timestamp="1582119359826" />
+    <state width="1358" height="348" key="GridCell.Tab.0.center" timestamp="1582119359826">
+      <screen x="0" y="23" width="1920" height="1119" />
+    </state>
+    <state width="1358" height="348" key="GridCell.Tab.0.center/0.23.1920.1119@0.23.1920.1119" timestamp="1582119359826" />
+    <state width="1358" height="348" key="GridCell.Tab.0.left" timestamp="1582119359825">
+      <screen x="0" y="23" width="1920" height="1119" />
+    </state>
+    <state width="1358" height="348" key="GridCell.Tab.0.left/0.23.1920.1119@0.23.1920.1119" timestamp="1582119359825" />
+    <state width="1358" height="348" key="GridCell.Tab.0.right" timestamp="1582119359826">
+      <screen x="0" y="23" width="1920" height="1119" />
+    </state>
+    <state width="1358" height="348" key="GridCell.Tab.0.right/0.23.1920.1119@0.23.1920.1119" timestamp="1582119359826" />
+    <state width="1358" height="348" key="GridCell.Tab.1.bottom" timestamp="1582119359828">
+      <screen x="0" y="23" width="1920" height="1119" />
+    </state>
+    <state width="1358" height="348" key="GridCell.Tab.1.bottom/0.23.1920.1119@0.23.1920.1119" timestamp="1582119359828" />
+    <state width="1358" height="348" key="GridCell.Tab.1.center" timestamp="1582119359827">
+      <screen x="0" y="23" width="1920" height="1119" />
+    </state>
+    <state width="1358" height="348" key="GridCell.Tab.1.center/0.23.1920.1119@0.23.1920.1119" timestamp="1582119359827" />
+    <state width="1358" height="348" key="GridCell.Tab.1.left" timestamp="1582119359827">
+      <screen x="0" y="23" width="1920" height="1119" />
+    </state>
+    <state width="1358" height="348" key="GridCell.Tab.1.left/0.23.1920.1119@0.23.1920.1119" timestamp="1582119359827" />
+    <state width="1358" height="348" key="GridCell.Tab.1.right" timestamp="1582119359828">
+      <screen x="0" y="23" width="1920" height="1119" />
+    </state>
+    <state width="1358" height="348" key="GridCell.Tab.1.right/0.23.1920.1119@0.23.1920.1119" timestamp="1582119359828" />
+    <state x="379" y="151" key="new project wizard" timestamp="1582119358297">
+      <screen x="0" y="23" width="1920" height="1119" />
+    </state>
+    <state x="379" y="151" key="new project wizard/0.23.1920.1119@0.23.1920.1119" timestamp="1582119358297" />
+  </component>
+</project>

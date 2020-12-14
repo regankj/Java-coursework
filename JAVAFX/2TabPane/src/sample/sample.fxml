@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.999-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TabPane layoutX="7.0" layoutY="7.0" prefHeight="391.0" prefWidth="583.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Graph">
+            <content>
+              <fx:include source="Graph.fxml" />
+            </content>
+          </Tab>
+          <Tab text="Image">
+            <content>
+              <fx:include source="Image.fxml" />
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
